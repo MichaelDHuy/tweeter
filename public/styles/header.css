@@ -1,0 +1,36 @@
+.header {
+  background-color: #e1a009;
+  background-image: url("https://www.transparenttextures.com/patterns/swirl.png");
+  color: #545149;;    
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.profileImg {
+  margin: auto;
+ }
+  
+ .profileImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+ }
+  
+ .name {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ }
+

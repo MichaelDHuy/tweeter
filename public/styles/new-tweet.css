@@ -1,0 +1,49 @@
+form {
+  position: relative;
+  border-bottom: 3px solid #545149;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  margin-top: 1%;
+ }
+
+ button{
+  background-color: #4056A1;
+  color: white;
+  border: 2px solid; 
+  padding: 3px 10px;
+  left: 0;
+ }
+
+ button, .counter{
+  font-family: "Bungee";
+ }
+
+ .counter{
+  right: 0;
+ }
+
+ .tweet-form-footer {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #tweet-text {
+  background: transparent;
+  width: 100%;
+  border: none;
+  border-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: x-large;
+  resize: none;
+  outline: none;
+  margin-bottom: -10px;
+ }
+
+ .counter.error {
+  color: red;
+ }
+ #errorMessage {
+  display: none;
+  margin-top: 5px;
+  color: red;
+ }
