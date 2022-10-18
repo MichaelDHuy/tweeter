@@ -1,84 +1,71 @@
 #tweets-container {
-  width: 100%;
+  position: relative;
+  margin: auto;
+  border: 3px solid
  }
-
-.tweet-header{
+ 
+ .tweet-header{
   height: 100%;
-    width: 100%;
-    position: relative;
-    display: grid;
-    background-image: url("https://www.transparenttextures.com/patterns/swirl.png");
-    margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  display: grid;
+  background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+  margin-bottom: 20px;
  }
-
+ 
  .tweet-header .left{
   float: left;
   margin-right: 20px;
  }
-
+ 
  .tweet-header h1 , .tweet-header h5{
-  margin: auto;
+  margin: 0;
  }
-
+ 
  .right{
   float: right;
-
+  
  }
-
+ 
  .wrapper{
-  padding: 10px;
+  padding: 15px;
  }
-
+ 
  .tweet-footer{
   margin: 20px 0 0;
-  border-top: solid 2px #545149;
+  border-top: solid 2px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
  }
-
+ 
  .message{
   display:flex;
   height: 100%;
   align-items:center;
   padding: 20px 0;
  }
-
+ 
+ 
+ 
  .new-tweet{
   padding-bottom: 15%;
  }
-
+ 
  .tweet-header:hover {
-  box-shadow: 10px 5px 5px #d8d3d3 ;
-  text-shadow: 1px 1px;
-}
-
-.fa-retweet:hover {
-  color: red;
-}
-
-.fa-heart:hover {
-  color: red
-}
-
-.fa-flag:hover {
-  color:red;
-}
-.tweet-header:hover {
-  box-shadow: 10px 5px 5px #d8d3d3 ;
-  text-shadow: 1px 1px;
-}
-
-.fa-retweet:hover {
-  color: red;
-}
-
-.fa-heart:hover {
-  color: red
-}
-
-.fa-flag:hover {
-  color:red;
-}
-
+   box-shadow: 10px 5px 5px #d8d3d3 ;
+   text-shadow: 1px 1px;
+ }
+ 
+ .fa-retweet:hover {
+   color: red;
+ }
+ 
+ .fa-heart:hover {
+   color: red
+ }
+ 
+ .fa-flag:hover {
+   color:red;
+ }

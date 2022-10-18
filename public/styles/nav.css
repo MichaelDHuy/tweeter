@@ -1,17 +1,19 @@
 nav {
-  background-color:#4056A1;
-  color: #ffffff;    
+  background-color: none;
+  color: #ffffff;
   height: 120px;
-  width: 100%;
-  top: 0;
-  padding-left: 1.5em;  
+  padding-left: 1.5em;
   padding-right: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-}
-.logo {
+  position: fixed;
+  width: 100%;
+  top: 0;  
+  z-index: 1;
+ }
+ 
+ .logo {
   font-size: 50px;
   top: 0.9em;
   right: 1.5em;
@@ -20,8 +22,9 @@ nav {
   font-family: "Bungee";
   display: flex;
   justify-content: flex-start;
-  }
-.writeTweet {
+ }
+ 
+ .writeTweet {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
   margin-top: 0.01em;
@@ -29,8 +32,8 @@ nav {
   align-items: center;
   right: 1.5em;
   flex-direction: column;
-  }
-    
-  #arrow {
-    color: red;
-  }
+ }
+ 
+ .fa-angle-double-down {
+  color: red;
+ }

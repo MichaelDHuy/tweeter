@@ -14,24 +14,19 @@ html {
  * Global layout stuff
  */
 
-body {
+ body {
   color: #545149;
   background-color: #f4f1ec;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
-}
-
-.container {
-  width: 60%;
-  margin: auto;
-  color: #545149;
-  background-color: #f4f1ec;
   font-family: 'Source Sans Pro', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+.container {
+  width: 90%;
+  margin: auto 50px;
+  background-color: #f4f1ec;
+}
